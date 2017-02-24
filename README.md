@@ -1,1 +1,1 @@
-# imperialoctopus.github.com
+# imperialoctopus.github.io
