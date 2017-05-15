@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+ html, body {
+    height:100%;
+}
+h1 {
+    font-family:'Roboto Mono', serif;
+    font-size:80px;
+    color:#FFFFFF;
+}
+.lead {
+    color:#DDCCEE;
+}
+/* Custom container */
+ .container-full {
+    margin: 0 auto;
+    width: 100%;
+    min-height:100%;
+    background-color:#003e71;
+    color:#eee;
+    overflow:hidden;
+}
+.container-full a {
+    color:#efefef;
+    text-decoration:none;
+}
+.v-center {
+    margin-top:7%;
+}
