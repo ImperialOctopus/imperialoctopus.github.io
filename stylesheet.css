@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
   font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
@@ -502,4 +503,48 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+html {
+    background: url("./img/bg.jpg") no-repeat center center fixed;
+    /*background-color: #B278C9;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    margin: auto;
+    height: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    background-color: transparent;
+}
+
+.inner {
+    box-shadow: 0px 0px 15px #888888;
+}
+
+header {
+    background-color: white;
+    color: #ED254E;
+}
+
+.links {
+    align: center;
+}
+
+.btnhome, .btnabout, .btnprojects {
+    display: inline;
+}
+
+.whitelink a {
+    color: white;
+}
+
+.projects span.skills {
+ cursor: pointer;
 }
