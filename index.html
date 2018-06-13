@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,14 +21,14 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" type="text/javascript"></script>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
 
     <!-- Theme -->
-    <link href="stylesheet.css" rel="stylesheet">
-    <script src="javascript.js"></script>
+    <link href="assets/freelancer.css" rel="stylesheet">
+    <script src="assets/freelancer.js" type="text/javascript"></script>
 
     <!-- GitHub button script -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -39,14 +38,13 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+    <!-- Pagination -->
+    <script src="assets/pagination.js" type="text/javascript"></script>
 </head>
 
 <body id="page-top" class="index">
-
     <div class="inner">
-
         <!-- Header -->
-
         <header>
             <div class="container">
 
@@ -62,7 +60,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="about" style="display: none">
                     <div class="row">
@@ -168,66 +165,6 @@
                 </div>
             </div>
         </footer>
-
-        <script>
-            $(document).ready(function () {
-                $(".btnhome").click(function () {
-                    if ($(".projects").css('display') != 'none') {
-                        $(".projects").slideToggle();
-                    }
-                    if ($(".about").css('display') != 'none') {
-                        $(".about").slideToggle();
-                    }
-                    if ($(".home").css('display') == 'none') {
-                        $(".home").slideToggle();
-                    }
-
-                    $(".btnhome").addClass('whitelink');
-                    $(".btnabout").removeClass('whitelink');
-                    $(".btnprojects").removeClass('whitelink');
-                });
-                $(".btnabout").click(function () {
-                    if ($(".projects").css('display') != 'none') {
-                        $(".projects").slideToggle();
-                    }
-                    if ($(".home").css('display') != 'none') {
-                        $(".home").slideToggle();
-                    }
-                    if ($(".about").css('display') == 'none') {
-                        $(".about").slideToggle();
-                    }
-
-                    $(".btnhome").removeClass('whitelink');
-                    $(".btnabout").addClass('whitelink');
-                    $(".btnprojects").removeClass('whitelink');
-                });
-                $(".btnprojects").click(function () {
-                    if ($(".home").css('display') != 'none') {
-                        $(".home").slideToggle();
-                    }
-                    if ($(".about").css('display') != 'none') {
-                        $(".about").slideToggle();
-                    }
-                    if ($(".projects").css('display') == 'none') {
-                        $(".projects").slideToggle();
-                    }
-
-                    $(".btnhome").removeClass('whitelink');
-                    $(".btnabout").removeClass('whitelink');
-                    $(".btnprojects").addClass('whitelink');
-                });
-                $(".project1name").click(function () {
-                    $(".project1").slideToggle();
-                });
-                $(".project2name").click(function () {
-                    $(".project2").slideToggle();
-                });
-                $(".project3name").click(function () {
-                    $(".project3").slideToggle();
-                });
-            });
-        </script>
-
     </div>
 
 </body>
