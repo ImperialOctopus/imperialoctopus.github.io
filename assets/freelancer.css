@@ -9,10 +9,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
-}
-p.small {
-  font-size: 16px;
+  font-size: 1.5em;
 }
 a,
 a:hover,
@@ -74,8 +71,8 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 header img {
   display: block;
@@ -93,8 +90,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10em;
+    padding-bottom: 10em;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -148,7 +145,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle {
   color: white;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 1em;
   border-color: white;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -190,20 +187,20 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 8em 0;
   }
   section.first {
-    padding-top: 75px;
+    padding-top: 8em;
   }
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  margin: 0 0 1.5em;
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 40em;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
