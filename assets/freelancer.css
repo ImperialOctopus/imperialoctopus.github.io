@@ -529,10 +529,6 @@ header {
     color: #ED254E;
 }
 
-.links {
-    align: center;
-}
-
 .btnhome, .btnabout, .btnprojects {
     display: inline;
 }
