@@ -19,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #5bc0de;
   outline: none;
 }
 h1,
@@ -84,7 +84,6 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: 'Varela Round', sans-serif;
-  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
 }
@@ -107,7 +106,6 @@ header .intro-text .skills {
 .navbar-custom {
   background: #2C3E50;
   font-family: "Valera Round", sans-serif;
-  /*text-transform: uppercase;*/
   font-weight: 700;
   border: none;
 }
@@ -273,8 +271,6 @@ section.success {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
