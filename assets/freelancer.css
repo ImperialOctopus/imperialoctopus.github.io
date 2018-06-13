@@ -506,7 +506,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 html {
-    background: url("./img/bg.jpg") no-repeat center center fixed;
+    background: url("./images/background.jpg") no-repeat center center fixed;
     /*background-color: #B278C9;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
